@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: rotate .9s 1s;
+  animation: rotate .9s 0.4s;
 }
 
 @keyframes rotate {

@@ -30,6 +30,7 @@
 }
 
 .tariff__img {
+  user-select: none;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -86,7 +87,7 @@
 
 .tariffs__desc-item--vip span {
   transform: translate(-50%, -35%);
-  line-height: 1.42; 
+  line-height: 1.42;
 }
 
 .tariffs__desc-item--vip .tariffs__avatar + span {

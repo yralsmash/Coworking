@@ -3,3 +3,8 @@
   margin-left: 19px;
   display: inline-block;
 }
+
+.logo:hover {
+  transition: 0.5s;
+  opacity: 0.7;
+}

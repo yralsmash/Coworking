@@ -22,21 +22,20 @@
 }
 
 .contacts__schedule:hover .schedule__block {
-  left: 0;
+  left: -50px;
   opacity: 1;
+  transition: opacity 1s;
 }
 
 .schedule__block {
   opacity: 0;
-  transition: opacity 1;
-  padding: 28px 10px 18px;
-  margin-top: 20px;
-  margin-left: 37px;
+  padding: 17px 10px 0;
+  margin-top: 9px;
   top: 100%;
   left: -9999px;
   position: absolute;
   width: 163px;
-  height: 81px;
+  height: 65px;
   border-radius: 3px;
   box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.2);
   background-image: linear-gradient(to top, #ffffff, #ffffff);
@@ -60,7 +59,7 @@
   height: 30px;
   left: 0;
   right: 0;
-  top: -20px;
+  top: -11px;
   position: absolute;
 }
 
@@ -68,7 +67,6 @@
   font-size: 14px;
   font-weight: bold;
   font-style: normal;
-  line-height: 1.5;
   color: #cb2376;
 }
 

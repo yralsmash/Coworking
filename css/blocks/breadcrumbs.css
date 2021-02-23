@@ -16,6 +16,12 @@
   color: rgb(203, 35, 118);
 }
 
+.breadcrumbs__main:hover {
+  transition: 0.5s;
+  text-decoration: underline;
+  opacity: 1;
+}
+
 .breadcrumbs__tariffs::before {
 content: "/";
 }

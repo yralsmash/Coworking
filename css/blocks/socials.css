@@ -1,7 +1,3 @@
-.social__content {
-  min-width: 171px;
-}
-
 .social__text {
   font-size: 14px;
   font-weight: bold;
@@ -17,6 +13,10 @@
   margin-right: 10px;
 }
 
+.social-item:last-child {
+  margin-right: 0;
+}
+
 .social__wrapper {
   width: 20px;
   height: 20px;
@@ -29,5 +29,6 @@
 }
 
 .social__wrapper:hover {
+  transition: 0.5s ;
   background: #cb2376;
 }
