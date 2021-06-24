@@ -6,4 +6,4 @@ Kruglov Sergey
 
 How to install my site
 
-1.git clone https://github.com/yralsmash/Coworking
+- git clone https://github.com/yralsmash/Coworking
